@@ -22,7 +22,7 @@ msg['To'] = ", ".join(toaddr1)
 msg['Subject'] = "Pengiriman Pesan via Python"
 
 #menambahkan isi pesan
-body = "Ini adalah body pesan"
+body = "Ini adalah contoh pengiriman pesan melalui Python"
 msg.attach(MIMEText(body, 'plain'))
 
 #menambahkan lampiran
