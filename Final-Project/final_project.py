@@ -26,8 +26,8 @@ body = "Ini adalah contoh pengiriman pesan melalui Python"
 msg.attach(MIMEText(body, 'plain'))
 
 #menambahkan lampiran
-filename = "Notulen Rapat.docx"
-attachment = open("D:\\Notulen Rapat.docx","rb")
+filename = "tes.docx"
+attachment = open("D:\\tes.docx","rb")
 
 part = MIMEBase("application", "octet-stream")
 part.set_payload((attachment).read())
